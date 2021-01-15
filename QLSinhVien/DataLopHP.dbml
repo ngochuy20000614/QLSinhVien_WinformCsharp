@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QLDiemSinhVien" Class="DataLopHPDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=QLDiemSinhVien;Integrated Security=True" SettingsObjectName="QLSinhVien.Properties.Settings" SettingsPropertyName="QLDiemSinhVienConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.LopHP" Member="tblLopHPs">
+    <Type Name="tblLopHP">
+      <Column Name="maLHP" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="maHP" Type="System.String" DbType="Char(7)" CanBeNull="true" />
+      <Column Name="maHK" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tenLHP" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="maGV" Type="System.String" DbType="Char(5)" CanBeNull="true" />
+      <Column Name="sSMax" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sSDK" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="GiaoVien_tblLopHP" Member="tblGiaoVien" ThisKey="maGV" OtherKey="maGV" Type="tblGiaoVien" IsForeignKey="true" DeleteRule="CASCADE" />
+      <Association Name="HocKy_tblLopHP" Member="tblHocKy" ThisKey="maHK" OtherKey="maHK" Type="tblHocKy" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GiaoVien" Member="tblGiaoViens">
+    <Type Name="tblGiaoVien">
+      <Column Name="maGV" Type="System.String" DbType="Char(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="hoTen" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="gioiTinh" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="sdt" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="anh" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="GiaoVien_tblLopHP" Member="tblLopHPs" ThisKey="maGV" OtherKey="maGV" Type="tblLopHP" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HocKy" Member="tblHocKies">
+    <Type Name="tblHocKy">
+      <Column Name="maHK" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tenHK" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Association Name="HocKy_tblLopHP" Member="tblLopHPs" ThisKey="maHK" OtherKey="maHK" Type="tblLopHP" />
+    </Type>
+  </Table>
+</Database>

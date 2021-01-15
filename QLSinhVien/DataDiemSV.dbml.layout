@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataDiemSV">
+  <DataContextMoniker Name="/DataDiemSVDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8fcaf9a5-c137-4c37-850f-b9caa8560c59" absoluteBounds="1.75, 0.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/DataDiemSVDataContext/SinhVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="171a44f6-4e97-4a22-9cd8-8f5c1c9df955" absoluteBounds="1.7649999999999997, 1.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f94b1d35-c871-4add-b047-95a8bf92bf8d" absoluteBounds="5, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DataDiemSVDataContext/LOP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4f7a8e8f-fbc5-4cb0-9522-00b483097fc7" absoluteBounds="5.015, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5 : 1.44314697265625); (3.75 : 1.44314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataDiemSVDataContext/LOP/LOP_SinhVien" />
+      <nodes>
+        <classShapeMoniker Id="f94b1d35-c871-4add-b047-95a8bf92bf8d" />
+        <classShapeMoniker Id="8fcaf9a5-c137-4c37-850f-b9caa8560c59" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="d91911e6-d23c-41d4-abd1-2ec97bdf5c89" absoluteBounds="6, 3.625, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/DataDiemSVDataContext/HocKy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="04f8705d-252c-4857-ae3c-812313ae113b" absoluteBounds="6.0150000000000006, 4.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9c73c6ac-8d92-4622-b93e-aac31cc7ebcb" absoluteBounds="1.875, 3.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataDiemSVDataContext/TKHK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="21658600-ab3f-4288-9320-d899adb0d5bb" absoluteBounds="1.8899999999999997, 3.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6 : 4.22199625651042); (3.875 : 4.22199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataDiemSVDataContext/HocKy/HocKy_TKHK" />
+      <nodes>
+        <classShapeMoniker Id="d91911e6-d23c-41d4-abd1-2ec97bdf5c89" />
+        <classShapeMoniker Id="9c73c6ac-8d92-4622-b93e-aac31cc7ebcb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.8818719870484 : 2.5881982421875); (2.64564106876646 : 2.7119482421875); (2.64564106876646 : 3.375)]" manuallyRouted="true" fixedFrom="Caller" fixedTo="Caller">
+      <AssociationMoniker Name="/DataDiemSVDataContext/SinhVien/SinhVien_TKHK" />
+      <nodes>
+        <classShapeMoniker Id="8fcaf9a5-c137-4c37-850f-b9caa8560c59" />
+        <classShapeMoniker Id="9c73c6ac-8d92-4622-b93e-aac31cc7ebcb" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

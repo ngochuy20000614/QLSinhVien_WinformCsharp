@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QLDiemSinhVien" Class="DataDiemSVDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=NGOCHUY\SQLEXPRESS;Initial Catalog=QLDiemSinhVien;Integrated Security=True" SettingsObjectName="QLSinhVien.Properties.Settings" SettingsPropertyName="QLDiemSinhVienConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.SinhVien" Member="SinhViens">
+    <Type Name="SinhVien">
+      <Column Name="maSV" Type="System.String" DbType="VarChar(13) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="hoTen" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="gioiTinh" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="namSinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="maLop" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="diaChi" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="SinhVien_TKHK" Member="TKHKs" ThisKey="maSV" OtherKey="maSV" Type="TKHK" />
+      <Association Name="LOP_SinhVien" Member="LOP" ThisKey="maLop" OtherKey="maLop" Type="LOP" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LOP" Member="LOPs">
+    <Type Name="LOP">
+      <Column Name="maLop" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="maKhoa" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="siSo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="LOP_SinhVien" Member="SinhViens" ThisKey="maLop" OtherKey="maLop" Type="SinhVien" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HocKy" Member="HocKies">
+    <Type Name="HocKy">
+      <Column Name="maHK" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tenHK" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Association Name="HocKy_TKHK" Member="TKHKs" ThisKey="maHK" OtherKey="maHK" Type="TKHK" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TKHK" Member="TKHKs">
+    <Type Name="TKHK">
+      <Column Name="maHK" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="maSV" Type="System.String" DbType="VarChar(13) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="sTCDK" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="sTCTL" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="dTBC" Type="System.Decimal" DbType="Decimal(5,2)" CanBeNull="true" />
+      <Association Name="HocKy_TKHK" Member="HocKy" ThisKey="maHK" OtherKey="maHK" Type="HocKy" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="SinhVien_TKHK" Member="SinhVien" ThisKey="maSV" OtherKey="maSV" Type="SinhVien" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+</Database>

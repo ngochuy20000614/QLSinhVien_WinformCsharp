@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QLSinhVien>
+  <SinhVien>
+    <maSV>1811505310120</maSV>
+    <hoTen>Trần Hoàng Chung</hoTen>
+    <maLop>18C2</maLop>
+    <sTCDK>20</sTCDK>
+    <dTBC>3.40</dTBC>
+    <maHK>118</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310121</maSV>
+    <hoTen>Nguyễn Văn Long</hoTen>
+    <maLop>18C2</maLop>
+    <sTCDK>20</sTCDK>
+    <dTBC>3.40</dTBC>
+    <maHK>118</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310122</maSV>
+    <hoTen>Ngô Tất Tố</hoTen>
+    <maLop>18C1</maLop>
+    <sTCDK>20</sTCDK>
+    <dTBC>3.40</dTBC>
+    <maHK>118</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310120</maSV>
+    <hoTen>Trần Hoàng Chung</hoTen>
+    <maLop>18C2</maLop>
+    <sTCDK>20</sTCDK>
+    <dTBC>3.40</dTBC>
+    <maHK>119</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310121</maSV>
+    <hoTen>Nguyễn Văn Long</hoTen>
+    <maLop>18C2</maLop>
+    <sTCDK>20</sTCDK>
+    <dTBC>3.40</dTBC>
+    <maHK>119</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310122</maSV>
+    <hoTen>Ngô Tất Tố</hoTen>
+    <maLop>18C1</maLop>
+    <sTCDK>20</sTCDK>
+    <dTBC>3.40</dTBC>
+    <maHK>119</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310123</maSV>
+    <hoTen>Huỳnh Văn Long</hoTen>
+    <maLop>18C1</maLop>
+    <sTCDK>20</sTCDK>
+    <dTBC>3.40</dTBC>
+    <maHK>119</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310124</maSV>
+    <hoTen>Huỳnh Thị Tuyết</hoTen>
+    <maLop>18H1</maLop>
+    <sTCDK>20</sTCDK>
+    <dTBC>3.40</dTBC>
+    <maHK>119</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310126</maSV>
+    <hoTen>Nguyễn Đình Tuấn</hoTen>
+    <maLop>18H2</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.63</dTBC>
+    <maHK>119</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310128</maSV>
+    <hoTen>Hồ Tấn Tài</hoTen>
+    <maLop>18H1</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>4.00</dTBC>
+    <maHK>119</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310129</maSV>
+    <hoTen>Dương Minh Tuấn</hoTen>
+    <maLop>18S1</maLop>
+    <sTCDK>25</sTCDK>
+    <dTBC>3.10</dTBC>
+    <maHK>119</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310130</maSV>
+    <hoTen>Lê Thị Lan Anh</hoTen>
+    <maLop>18S1</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.40</dTBC>
+    <maHK>119</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310131</maSV>
+    <hoTen>Nguyễn Thị Hoài</hoTen>
+    <maLop>18S2</maLop>
+    <sTCDK>12</sTCDK>
+    <dTBC>3.40</dTBC>
+    <maHK>119</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310132</maSV>
+    <hoTen>Trần Quang Hải</hoTen>
+    <maLop>18S2</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.40</dTBC>
+    <maHK>119</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310133</maSV>
+    <hoTen>Nguyễn Hải Tú</hoTen>
+    <maLop>18S2</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.40</dTBC>
+    <maHK>119</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310134</maSV>
+    <hoTen>Bùi Duy Vật</hoTen>
+    <maLop>18TDH1</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.40</dTBC>
+    <maHK>119</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310135</maSV>
+    <hoTen>Cái Duy Minh</hoTen>
+    <maLop>18TDH2</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.40</dTBC>
+    <maHK>119</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310107</maSV>
+    <hoTen>Nguyễn Thành Đạt</hoTen>
+    <maLop>18T1</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.20</dTBC>
+    <maHK>120</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310120</maSV>
+    <hoTen>Trần Hoàng Chung</hoTen>
+    <maLop>18C2</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.20</dTBC>
+    <maHK>120</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310121</maSV>
+    <hoTen>Nguyễn Văn Long</hoTen>
+    <maLop>18C2</maLop>
+    <sTCDK>20</sTCDK>
+    <dTBC>3.40</dTBC>
+    <maHK>120</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310122</maSV>
+    <hoTen>Ngô Tất Tố</hoTen>
+    <maLop>18C1</maLop>
+    <sTCDK>20</sTCDK>
+    <dTBC>3.40</dTBC>
+    <maHK>120</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310126</maSV>
+    <hoTen>Nguyễn Đình Tuấn</hoTen>
+    <maLop>18H2</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.20</dTBC>
+    <maHK>120</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310127</maSV>
+    <hoTen>Lê Đào Tiên</hoTen>
+    <maLop>18H2</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.20</dTBC>
+    <maHK>120</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310128</maSV>
+    <hoTen>Hồ Tấn Tài</hoTen>
+    <maLop>18H1</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.20</dTBC>
+    <maHK>120</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310129</maSV>
+    <hoTen>Dương Minh Tuấn</hoTen>
+    <maLop>18S1</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.20</dTBC>
+    <maHK>120</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310130</maSV>
+    <hoTen>Lê Thị Lan Anh</hoTen>
+    <maLop>18S1</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.20</dTBC>
+    <maHK>120</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310131</maSV>
+    <hoTen>Nguyễn Thị Hoài</hoTen>
+    <maLop>18S2</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.20</dTBC>
+    <maHK>120</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310132</maSV>
+    <hoTen>Trần Quang Hải</hoTen>
+    <maLop>18S2</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.20</dTBC>
+    <maHK>120</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310133</maSV>
+    <hoTen>Nguyễn Hải Tú</hoTen>
+    <maLop>18S2</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.20</dTBC>
+    <maHK>120</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310134</maSV>
+    <hoTen>Bùi Duy Vật</hoTen>
+    <maLop>18TDH1</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.20</dTBC>
+    <maHK>120</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310135</maSV>
+    <hoTen>Cái Duy Minh</hoTen>
+    <maLop>18TDH2</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.20</dTBC>
+    <maHK>120</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310122</maSV>
+    <hoTen>Ngô Tất Tố</hoTen>
+    <maLop>18C1</maLop>
+    <sTCDK>20</sTCDK>
+    <dTBC>3.40</dTBC>
+    <maHK>218</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310107</maSV>
+    <hoTen>Nguyễn Thành Đạt</hoTen>
+    <maLop>18T1</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.30</dTBC>
+    <maHK>219</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310120</maSV>
+    <hoTen>Trần Hoàng Chung</hoTen>
+    <maLop>18C2</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.30</dTBC>
+    <maHK>219</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310126</maSV>
+    <hoTen>Nguyễn Đình Tuấn</hoTen>
+    <maLop>18H2</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.30</dTBC>
+    <maHK>219</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310127</maSV>
+    <hoTen>Lê Đào Tiên</hoTen>
+    <maLop>18H2</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.30</dTBC>
+    <maHK>219</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310128</maSV>
+    <hoTen>Hồ Tấn Tài</hoTen>
+    <maLop>18H1</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.30</dTBC>
+    <maHK>219</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310129</maSV>
+    <hoTen>Dương Minh Tuấn</hoTen>
+    <maLop>18S1</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.30</dTBC>
+    <maHK>219</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310130</maSV>
+    <hoTen>Lê Thị Lan Anh</hoTen>
+    <maLop>18S1</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.30</dTBC>
+    <maHK>219</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310131</maSV>
+    <hoTen>Nguyễn Thị Hoài</hoTen>
+    <maLop>18S2</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.30</dTBC>
+    <maHK>219</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310132</maSV>
+    <hoTen>Trần Quang Hải</hoTen>
+    <maLop>18S2</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.30</dTBC>
+    <maHK>219</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310133</maSV>
+    <hoTen>Nguyễn Hải Tú</hoTen>
+    <maLop>18S2</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.30</dTBC>
+    <maHK>219</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310134</maSV>
+    <hoTen>Bùi Duy Vật</hoTen>
+    <maLop>18TDH1</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.30</dTBC>
+    <maHK>219</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310135</maSV>
+    <hoTen>Cái Duy Minh</hoTen>
+    <maLop>18TDH2</maLop>
+    <sTCDK>18</sTCDK>
+    <dTBC>3.30</dTBC>
+    <maHK>219</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310107</maSV>
+    <hoTen>Nguyễn Thành Đạt</hoTen>
+    <maLop>18T1</maLop>
+    <sTCDK>23</sTCDK>
+    <dTBC>3.10</dTBC>
+    <maHK>220</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310120</maSV>
+    <hoTen>Trần Hoàng Chung</hoTen>
+    <maLop>18C2</maLop>
+    <sTCDK>23</sTCDK>
+    <dTBC>3.10</dTBC>
+    <maHK>220</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310126</maSV>
+    <hoTen>Nguyễn Đình Tuấn</hoTen>
+    <maLop>18H2</maLop>
+    <sTCDK>23</sTCDK>
+    <dTBC>3.10</dTBC>
+    <maHK>220</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310127</maSV>
+    <hoTen>Lê Đào Tiên</hoTen>
+    <maLop>18H2</maLop>
+    <sTCDK>23</sTCDK>
+    <dTBC>3.10</dTBC>
+    <maHK>220</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310128</maSV>
+    <hoTen>Hồ Tấn Tài</hoTen>
+    <maLop>18H1</maLop>
+    <sTCDK>23</sTCDK>
+    <dTBC>3.10</dTBC>
+    <maHK>220</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310129</maSV>
+    <hoTen>Dương Minh Tuấn</hoTen>
+    <maLop>18S1</maLop>
+    <sTCDK>23</sTCDK>
+    <dTBC>3.10</dTBC>
+    <maHK>220</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310130</maSV>
+    <hoTen>Lê Thị Lan Anh</hoTen>
+    <maLop>18S1</maLop>
+    <sTCDK>23</sTCDK>
+    <dTBC>3.10</dTBC>
+    <maHK>220</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310131</maSV>
+    <hoTen>Nguyễn Thị Hoài</hoTen>
+    <maLop>18S2</maLop>
+    <sTCDK>23</sTCDK>
+    <dTBC>3.10</dTBC>
+    <maHK>220</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310132</maSV>
+    <hoTen>Trần Quang Hải</hoTen>
+    <maLop>18S2</maLop>
+    <sTCDK>23</sTCDK>
+    <dTBC>3.10</dTBC>
+    <maHK>220</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310133</maSV>
+    <hoTen>Nguyễn Hải Tú</hoTen>
+    <maLop>18S2</maLop>
+    <sTCDK>23</sTCDK>
+    <dTBC>3.10</dTBC>
+    <maHK>220</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310134</maSV>
+    <hoTen>Bùi Duy Vật</hoTen>
+    <maLop>18TDH1</maLop>
+    <sTCDK>23</sTCDK>
+    <dTBC>3.10</dTBC>
+    <maHK>220</maHK>
+  </SinhVien>
+  <SinhVien>
+    <maSV>1811505310135</maSV>
+    <hoTen>Cái Duy Minh</hoTen>
+    <maLop>18TDH2</maLop>
+    <sTCDK>23</sTCDK>
+    <dTBC>3.10</dTBC>
+    <maHK>220</maHK>
+  </SinhVien>
+</QLSinhVien>
